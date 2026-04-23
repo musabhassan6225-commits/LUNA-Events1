@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+:root {
+  --bg: #0a0a0a;
+  --text: #ffffff;
+}
+
+body {
+  background-color: var(--bg);
+  color: var(--text);
+  -webkit-font-smoothing: antialiased;
+  cursor: crosshair;
+}
+
+.serif {
+  font-family: 'Times New Roman', Times, serif;
+}
+
+::-webkit-scrollbar { width: 2px; }
+::-webkit-scrollbar-track { background: #0a0a0a; }
+::-webkit-scrollbar-thumb { background: #333; }
